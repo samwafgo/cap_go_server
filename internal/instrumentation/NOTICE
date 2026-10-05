@@ -1,0 +1,61 @@
+Cap instrumentation Go port
+
+Derived from tiagozip/cap, Copyright 2025 Tiago, licensed under Apache License 2.0.
+Pinned Cap commit: af624b9f15cb03f1f8194fb4c9f262ac34984923
+Sources:
+https://github.com/tiagozip/cap/blob/af624b9f15cb03f1f8194fb4c9f262ac34984923/core/src/instrumentation.js
+https://github.com/tiagozip/cap/blob/af624b9f15cb03f1f8194fb4c9f262ac34984923/core/src/detect.js
+https://github.com/tiagozip/cap/blob/af624b9f15cb03f1f8194fb4c9f262ac34984923/core/test/detect.test.js
+
+The repository root LICENSE contains the Apache License 2.0 text.
+Changes: pure Go random challenge generation, arithmetic/DOM expected-state
+calculation, raw-DEFLATE encoding, validation, and browser detector. The
+embedded browser template and full list of 18 automated-browser checks were
+extracted from the pinned upstream generator at development time; all
+requests use Go only. Checks are injected in every mode, including
+observation mode (BlockAutomatedBrowsers=false): a client-reported hit then
+surfaces as the instr_blocked_reported risk flag instead of a failure, while
+blocking mode keeps failing with instr_automated_browser as before.
+The generated template preserves browser environment checks and 17-font probe.
+Each challenge randomizes its ID, four variables, initial values, arithmetic,
+final salts, helper identifiers, and marker hash seed. Check selection samples
+CheckCount of the 18 checks: default 18 when blocking automated browsers,
+otherwise the upstream default 8; explicit values must be 1..18 (out of range
+is rejected, never clamped). Selection is per-challenge random for direct
+callers, or deterministically pinned per scope when a trusted ScopeSeed is set
+(the embedding Engine derives one from HMAC-SHA256(secret, "cap:instr-sel:"+
+scope) so one client cannot re-roll for an easier sample). Only which checks
+are injected is deterministic; names, values, arithmetic, and salts stay
+per-challenge random. The default obfuscation level is 6 when blocking
+automated browsers and 3 otherwise; explicit levels 1..10 always win. All
+marker constants are recalculated in Go using FNV1a semantics.
+Runtime JS engines, Node, Bun, and JavaScript obfuscator are not required.
+All levels 1-10 are supported with explicitly documented Go-native transforms:
+1-3: upstream lightweight randomized template family (same upstream behavior).
+4: shuffled, deduplicated plaintext string pool.
+5: shuffled string pool with UTF-16 Unicode escapes (no runtime decoder).
+6: shuffled UTF-8/base64 string pool with eager data-only decoding.
+7: random-key byte XOR plus base64 string pool.
+8: per-string random-key UTF-16 XOR pool.
+9: same per-string encoding split into chunks of at most eight code units.
+10: same per-string encoding split into chunks of at most three code units.
+The extra encoding and finer chunks increase generated code/data and decoding
+work; they are not encryption, a security boundary, or a bot-resistance guarantee.
+The transform recognizes this fixed template's string/comment/regex grammar;
+it is not a general-purpose JavaScript parser or arbitrary-code minifier.
+It intentionally retains whitespace rather than risking automatic semicolon
+insertion or regex semantics. Generated source is never passed to eval/Function
+by the obfuscator. The original browser environment checks still use eval and
+Function exactly as upstream and require appropriate instrumentation CSP.
+Upstream optionally uses esbuild and javascript-obfuscator; when unavailable it
+falls back to strings. This implementation provides the protocol/behavioral
+fallback with Go-native level-specific encodings, NOT the optional package's
+RC4, control-flow flattening, dead-code injection, self-defending, debugger or
+console-disabling features. Do not claim equal obfuscation or security strength.
+Detector fixtures record pinned upstream decisions on JSON round-tripped probes.
+The optional Node test checks generated arithmetic only, not browser semantics.
+CAP_BROWSER_TEST=1 enables a real Chrome test that executes the full generated
+script in an allow-scripts sandbox iframe and validates its state and probe.
+A 64 KiB input limit is an intentional hardening difference from upstream.
+Detection IDs, gating decisions, and risk flags match the upstream fixtures;
+not every human-readable diagnostic detail is copied verbatim.

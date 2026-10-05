@@ -321,10 +321,21 @@ func TestRedeemChallenge(t *testing.T) {
 		t.Fatalf("Failed to create challenge: %v", err)
 	}
 
-	// Test with invalid solution
+	// A fixed nonce is not necessarily invalid: at difficulty 1 it matches the
+	// random target with probability 1/16. Select a verified non-matching nonce
+	// while keeping the salt/target correct, so this exercises PoW rejection.
+	salt, target := challenge.Challenge[0][0], challenge.Challenge[0][1]
+	invalidNonce := 999999
+	for {
+		hash := sha256.Sum256([]byte(salt + fmt.Sprint(invalidNonce)))
+		if !strings.HasPrefix(hex.EncodeToString(hash[:]), target) {
+			break
+		}
+		invalidNonce++
+	}
 	invalidSol := &Solution{
 		Token:     challenge.Token,
-		Solutions: [][]interface{}{{challenge.Challenge[0][0], challenge.Challenge[0][1], 999999}},
+		Solutions: [][]interface{}{{salt, target, invalidNonce}},
 	}
 	result, err = cap.RedeemChallenge(invalidSol)
 	if err != nil {

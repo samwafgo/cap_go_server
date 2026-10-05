@@ -1,0 +1,4891 @@
+[
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        945,
+        1060
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:154.0) Gecko/20100101 Firefox/154.0",
+      "productSub": "20100101",
+      "webdriver": false,
+      "oscpu": "Intel Mac OS X 10.15",
+      "uaDataPresent": false,
+      "uaData": null,
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": true,
+        "hasChrome": false
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        1200,
+        900
+      ],
+      "outerWH": [
+        1200,
+        985
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "not a chromium engine",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "gecko engine",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Chromium/141",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        945,
+        1060
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/151.0.0.0 Mobile Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": true,
+        "brands": [
+          "Chromium/151"
+        ]
+      },
+      "plugins": {
+        "length": 0
+      },
+      "pdfViewerEnabled": false,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": false
+      },
+      "screen": {
+        "width": 412,
+        "height": 915
+      },
+      "innerWH": [
+        412,
+        915
+      ],
+      "outerWH": [
+        412,
+        915
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        945,
+        1060
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "17/17 whole-px, 1 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        1600,
+        1400
+      ],
+      "isExtended": true,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "monitor layout unknown",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+      "productSub": "20030107",
+      "oscpu": "__undefined",
+      "uaDataPresent": false,
+      "uaData": null,
+      "plugins": {
+        "length": 2
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": false
+      },
+      "screen": {
+        "width": 1728,
+        "height": 1117
+      },
+      "innerWH": [
+        1200,
+        900
+      ],
+      "outerWH": [
+        1200,
+        980
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=undefined",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "not a chromium engine",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 EdgiOS/120.0.0.0 Mobile/15E148 Safari/604.1",
+      "productSub": "20030107",
+      "oscpu": "__undefined",
+      "uaDataPresent": false,
+      "uaData": null,
+      "plugins": {
+        "length": 0
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": false
+      },
+      "screen": {
+        "width": 390,
+        "height": 844
+      },
+      "innerWH": [
+        390,
+        664
+      ],
+      "outerWH": [
+        390,
+        844
+      ],
+      "isExtended": null,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=undefined",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "not a chromium engine",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "monitor layout unknown",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) EdgiOS/120.0.0.0 Mobile/15E148 Safari/604.1",
+      "productSub": "20030107",
+      "oscpu": "__undefined",
+      "uaDataPresent": false,
+      "uaData": null,
+      "plugins": {
+        "length": 2
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": false
+      },
+      "screen": {
+        "width": 390,
+        "height": 844
+      },
+      "innerWH": [
+        1200,
+        900
+      ],
+      "outerWH": [
+        390,
+        900
+      ],
+      "isExtended": null,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=undefined",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "not a chromium engine",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "monitor layout unknown",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",
+      "productSub": "20030107",
+      "oscpu": "__undefined",
+      "uaDataPresent": false,
+      "uaData": null,
+      "plugins": {
+        "length": 2
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": false
+      },
+      "screen": {
+        "width": 1728,
+        "height": 1117
+      },
+      "innerWH": [
+        1200,
+        900
+      ],
+      "outerWH": [
+        1200,
+        980
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=undefined",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "not a chromium engine",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:154.0) Gecko/20100101 Firefox/154.0",
+      "productSub": "20100101",
+      "webdriver": false,
+      "oscpu": "Intel Mac OS X 10.15",
+      "uaDataPresent": false,
+      "uaData": null,
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": true,
+        "hasChrome": false
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        1200,
+        900
+      ],
+      "outerWH": [
+        1200,
+        1400
+      ],
+      "isExtended": null,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "not a chromium engine",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "gecko engine",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "monitor layout unknown",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "uaDataPresent": false,
+      "uaData": null,
+      "plugins": {
+        "length": 2
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": false
+      },
+      "screen": {
+        "width": 1728,
+        "height": 1117
+      },
+      "innerWH": [
+        1200,
+        900
+      ],
+      "outerWH": [
+        1200,
+        1600
+      ],
+      "isExtended": null,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "not a chromium engine",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "monitor layout unknown",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        1920,
+        1088
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:154.0) Gecko/20100101 Firefox/154.0",
+      "productSub": "20100101",
+      "webdriver": false,
+      "oscpu": "Intel Mac OS X 10.15",
+      "uaDataPresent": false,
+      "uaData": null,
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": true,
+        "hasChrome": false
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        1200,
+        900
+      ],
+      "outerWH": [
+        1200,
+        985
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200,
+        1400,
+        1200,
+        1400,
+        1200,
+        1400,
+        1200,
+        1400,
+        1200,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "9/17 whole-px, 2 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "not a chromium engine",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "gecko engine",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        945,
+        1060
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:154.0) Gecko/20100101 Firefox/154.0",
+      "productSub": "20100101",
+      "webdriver": false,
+      "oscpu": "Intel Mac OS X 10.15",
+      "uaDataPresent": false,
+      "uaData": null,
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": true,
+        "hasChrome": false
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        1200,
+        900
+      ],
+      "outerWH": [
+        1200,
+        985
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "not a chromium engine",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "gecko engine",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "uaDataPresent": false,
+      "uaData": null,
+      "plugins": {
+        "length": 2
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": false
+      },
+      "screen": {
+        "width": 1728,
+        "height": 1117
+      },
+      "innerWH": [
+        1200,
+        900
+      ],
+      "outerWH": [
+        1200,
+        980
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "not a chromium engine",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:154.0) Gecko/20100101 Firefox/154.0",
+      "productSub": "20100101",
+      "webdriver": false,
+      "oscpu": "Intel Mac OS X 10.15",
+      "uaDataPresent": false,
+      "uaData": null,
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": true,
+        "hasChrome": false
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        1200,
+        900
+      ],
+      "outerWH": [
+        1200,
+        985
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "not a chromium engine",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "gecko engine",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        945,
+        1060
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": false,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": false,
+          "detail": "JS-overridden: toDataURL",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": [
+        "native_tamper"
+      ]
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "outerWH": [
+        945,
+        1060
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:154.0) Gecko/20100101 Firefox/154.0",
+      "productSub": "20100101",
+      "webdriver": false,
+      "oscpu": "Intel Mac OS X 10.15",
+      "uaDataPresent": false,
+      "uaData": null,
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": true,
+        "hasChrome": false
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        1200,
+        900
+      ],
+      "outerWH": [
+        1200,
+        985
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200,
+        1203,
+        1206,
+        1209,
+        1212,
+        1215,
+        1218,
+        1221,
+        1224,
+        1227,
+        1230,
+        1233,
+        1236,
+        1239,
+        1242,
+        1245,
+        1248
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": false,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": false,
+          "detail": "17/17 whole-px, 17 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "not a chromium engine",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "gecko engine",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [
+        "geometry_quantized"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": true,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        945,
+        1060
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": false,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": false,
+          "detail": "webdriver=true",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [
+        "webdriver_true"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        945,
+        1060
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": false,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=undefined",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": false,
+          "detail": "removed",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [
+        "webdriver_stripped"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:154.0) Gecko/20100101 Firefox/154.0",
+      "productSub": "20100101",
+      "webdriver": false,
+      "oscpu": "Intel Mac OS X 10.15",
+      "deviceMemory": 8,
+      "uaDataPresent": false,
+      "uaData": null,
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": true,
+        "hasChrome": false
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        1200,
+        900
+      ],
+      "outerWH": [
+        1200,
+        985
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": false,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "not a chromium engine",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": false,
+          "detail": "gecko engine",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [
+        "gecko_contradiction"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1280,
+        "height": 720
+      },
+      "innerWH": [
+        1280,
+        720
+      ],
+      "outerWH": [
+        1288,
+        805
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": false,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": false,
+          "detail": "outerHeight 805 > screen.height 720",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": false,
+          "detail": "viewport 1280x720 == screen, window 805 tall",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [
+        "window_exceeds_screen",
+        "viewport_override"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "HeadlessChrome/151",
+          "Chromium/151"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        945,
+        1060
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": false,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": false,
+          "detail": "HeadlessChrome present",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [
+        "headless_token"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {},
+    "result": {
+      "pass": false,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": false,
+          "detail": "missing or malformed: ua, productSub, oscpu, uaDataPresent, uaData, plugins",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "not measured",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=undefined",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "not a chromium engine",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "monitor layout unknown",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [
+        "probe_incomplete"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        945,
+        1060
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": false,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": false,
+          "detail": "missing or malformed: fontWidths.length",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "not measured",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [
+        "probe_incomplete"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        945,
+        1060
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": false,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": false,
+          "detail": "missing or malformed: ua",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [
+        "probe_incomplete"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        945,
+        1060
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": false,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": false,
+          "detail": "missing or malformed: screen",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [
+        "probe_incomplete"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": false,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": false,
+          "detail": "missing or malformed: outerWH",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [
+        "probe_incomplete"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        945,
+        1060
+      ],
+      "isExtended": false,
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": false,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": false,
+          "detail": "missing or malformed: fontWidths",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "not measured",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [
+        "probe_incomplete"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        945,
+        1060
+      ],
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": false,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": false,
+          "detail": "missing or malformed: isExtended",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "monitor layout unknown",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [
+        "probe_incomplete"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        945,
+        1060
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": false,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": false,
+          "detail": "missing or malformed: uaDataPresent",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [
+        "probe_incomplete"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": [],
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        945,
+        1060
+      ],
+      "isExtended": "no",
+      "fontWidths": "abc",
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": false,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": false,
+          "detail": "missing or malformed: screen, isExtended, fontWidths",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "not measured",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "monitor layout unknown",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [
+        "probe_incomplete"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": [],
+    "result": {
+      "pass": false,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": false,
+          "detail": "missing or malformed: probe",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "not measured",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=undefined",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "not a chromium engine",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "monitor layout unknown",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [
+        "probe_incomplete"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        945,
+        1060
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": false,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=undefined",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": false,
+          "detail": "removed",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [
+        "webdriver_stripped"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1280,
+        "height": 720
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        1288,
+        805
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": false,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": false,
+          "detail": "outerHeight 805 > screen.height 720",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [
+        "window_exceeds_screen"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        945,
+        1060
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200.88,
+        1204.0500000000002,
+        1207.22,
+        1210.39,
+        1213.5600000000002,
+        1216.73,
+        1219.9,
+        1223.0700000000002,
+        1226.24,
+        1229.41,
+        1232.5800000000002,
+        1235.75,
+        1238.92,
+        1242.0900000000001,
+        1245.2600000000002,
+        1248.43,
+        1251.6000000000001
+      ],
+      "tamper": {
+        "k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0": false,
+        "k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1": false,
+        "k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2": false,
+        "k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3": false,
+        "k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4": false,
+        "k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5": false,
+        "k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6": false,
+        "k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7": false,
+        "k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8k8": false,
+        "k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9k9": false
+      }
+    },
+    "result": {
+      "pass": true,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": true,
+          "detail": "all fields present",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "0/17 whole-px, 0 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": false,
+          "detail": "JS-overridden: k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0k0, k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1k1, k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2k2, k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3k3, k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4, k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5k5, k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6k6, k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7k7",
+          "gating": false
+        }
+      ],
+      "blockedBy": [],
+      "riskFlags": [
+        "native_tamper"
+      ]
+    }
+  },
+  {
+    "probe": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "productSub": "20030107",
+      "webdriver": false,
+      "oscpu": "__undefined",
+      "deviceMemory": 8,
+      "uaDataPresent": true,
+      "uaData": {
+        "mobile": false,
+        "brands": [
+          "Google Chrome/151",
+          "Chromium/151",
+          "Not.A/Brand/99"
+        ]
+      },
+      "plugins": {
+        "length": 5
+      },
+      "pdfViewerEnabled": true,
+      "engine": {
+        "hasMozInnerScreenX": false,
+        "hasChrome": true
+      },
+      "screen": {
+        "width": 1920,
+        "height": 1080
+      },
+      "innerWH": [
+        945,
+        868
+      ],
+      "outerWH": [
+        945,
+        1060
+      ],
+      "isExtended": false,
+      "fontWidths": [
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200,
+        1200
+      ],
+      "tamper": {
+        "getParameterWebGL": true,
+        "toDataURL": true,
+        "getImageData": true,
+        "permissionsQuery": true,
+        "fnToString": true
+      }
+    },
+    "result": {
+      "pass": false,
+      "checks": [
+        {
+          "id": "probe_incomplete",
+          "passed": false,
+          "detail": "missing or malformed: fontWidths.length",
+          "gating": true
+        },
+        {
+          "id": "geometry_quantized",
+          "passed": true,
+          "detail": "64/64 whole-px, 1 distinct",
+          "gating": true
+        },
+        {
+          "id": "webdriver_true",
+          "passed": true,
+          "detail": "webdriver=false",
+          "gating": true
+        },
+        {
+          "id": "webdriver_stripped",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "gecko_contradiction",
+          "passed": true,
+          "detail": "n/a",
+          "gating": true
+        },
+        {
+          "id": "window_exceeds_screen",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "viewport_override",
+          "passed": true,
+          "detail": "ok",
+          "gating": true
+        },
+        {
+          "id": "headless_token",
+          "passed": true,
+          "detail": "absent",
+          "gating": true
+        },
+        {
+          "id": "native_tamper",
+          "passed": true,
+          "detail": "native",
+          "gating": false
+        }
+      ],
+      "blockedBy": [
+        "probe_incomplete"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": null,
+    "result": {
+      "pass": false,
+      "checks": [],
+      "blockedBy": [
+        "probe_missing"
+      ],
+      "riskFlags": []
+    }
+  },
+  {
+    "probe": null,
+    "result": {
+      "pass": false,
+      "checks": [],
+      "blockedBy": [
+        "probe_missing"
+      ],
+      "riskFlags": []
+    }
+  }
+]
